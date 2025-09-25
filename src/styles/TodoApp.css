@@ -1,0 +1,68 @@
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.todo-completed {
+  background-color: #f8f9fa;
+  opacity: 0.8;
+}
+
+.todo-text {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.btn {
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.input-group-lg .form-control {
+  border-radius: 10px 0 0 10px;
+}
+
+.input-group-lg .btn {
+  border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 2rem !important;
+  }
+  
+  .card-body {
+    padding: 1.5rem !important;
+  }
+  
+  .btn-group-sm .btn-sm {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.8rem;
+  }
+}
