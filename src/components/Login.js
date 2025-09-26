@@ -94,15 +94,14 @@ const Login = ({ onSwitchToRegister, onLoginSuccess }) => {
                 <div 
                   className="d-inline-flex align-items-center justify-content-center text-white position-relative"
                   style={{
-                    width: '90px',
-                    height: '90px',
-                    background: 'linear-gradient(135deg, #667eea, #764ba2)',
+                    width: '100px',
+                    height: '100px',
                     borderRadius: '50%',
                     boxShadow: '0 15px 35px rgba(102, 126, 234, 0.3)',
                     animation: 'pulse 2s infinite'
                   }}
                 >
-                  <i className="bi bi-check2-square" style={{ fontSize: '2.5rem' }}></i>
+                   <img  src="/logo.png" alt="Logo" style={{ width: '70px', height: '70px' }} />
                 </div>
               </div>
               <h2 className="fw-bold text-dark mb-2">Welcome Back! 👋</h2>

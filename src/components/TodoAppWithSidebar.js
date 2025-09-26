@@ -506,7 +506,7 @@ const TodoAppWithSidebar = () => {
              
             }}
           >
-            <img  src="/logo.png" alt="Logo" style={{ width: '80px', height: '80px' }} />
+            <img  src="/logo.png" alt="Logo" style={{ width: '70px', height: '70px' }} />
           </div>
           <div>
             <h5 className="mb-0 fw-bold">TaskBoost</h5>

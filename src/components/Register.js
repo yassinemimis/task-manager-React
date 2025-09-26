@@ -125,14 +125,14 @@ const Register = ({ onSwitchToLogin }) => {
                 <div 
                   className="d-inline-flex align-items-center justify-content-center text-white"
                   style={{
-                    width: '90px',
-                    height: '90px',
-                    background: 'linear-gradient(135deg, #28a745, #20c997)',
+                    width: '100px',
+                    height: '100px',
+      
                     borderRadius: '50%',
                     boxShadow: '0 15px 35px rgba(40, 167, 69, 0.3)'
                   }}
                 >
-                  <i className="bi bi-person-plus" style={{ fontSize: '2.5rem' }}></i>
+                    <img  src="/logo.png" alt="Logo" style={{ width: '70px', height: '70px' }} />
                 </div>
               </div>
               <h2 className="fw-bold text-dark mb-2">Join us now! 🚀</h2>
