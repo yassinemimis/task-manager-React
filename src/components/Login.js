@@ -61,6 +61,7 @@ const Login = ({ onSwitchToRegister, onLoginSuccess }) => {
     }
   } catch (err) {
     setError(err.response?.data?.message || "فشل تسجيل الدخول");
+    console.error("❌ Login error:", err);
   } finally {
     setIsLoading(false);
   }
